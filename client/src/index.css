@@ -1,0 +1,110 @@
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Poppins:wght@300;400&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* font-family: 'Poppins', sans-serif; */
+/* font-family: 'Playfair Display', serif; */
+
+/* Navbar CSS */
+.navbar {
+  font-family: "Poppins", sans-serif;
+  font-size: 1.5vw;
+  /* Responsive font size using vw */
+  line-height: 1.5;
+  text-transform: uppercase;
+  box-shadow: 0 8px 6px -6px gray;
+  --webkit-box-shadow: 0 8px 6px -6px gray;
+  border-bottom: solid gray !important;
+}
+
+.nav-link {
+  font-weight: 300 !important;
+}
+
+.active {
+  border-bottom: 2px solid black;
+}
+
+.navbar-brand {
+  font-weight: 700;
+  font-family: "roboto", sans-serif;
+  letter-spacing: 0.2vw;
+  /* Responsive letter spacing using vw */
+}
+
+/* Footer */
+.footer {
+  color: white;
+  padding: 2.5vw;
+  /* Responsive padding using vw */
+  background: #000000;
+  background: -webkit-linear-gradient(to right, #434343, #000000);
+  background: linear-gradient(to right, #434343, #000000);
+}
+
+.footer a {
+  text-decoration: none;
+  color: white;
+  padding: 1vw;
+  /* Responsive padding using vw */
+}
+
+.footer a:hover {
+  color: #ffefba;
+  border-bottom: 0.1vw solid #ffefba;
+  /* Responsive border using vw */
+}
+
+/* Page Not Found */
+.pnf {
+  display: flex;
+  min-height: 65vh;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.pnf-title {
+  font-size: 8vw;
+  /* Responsive font size using vw */
+  font-weight: 700;
+}
+
+.pnf-heading {
+  font-weight: normal;
+}
+
+.pnf-btn {
+  color: black;
+  border: 0.1vw solid black;
+  /* Responsive border using vw */
+  text-decoration: none;
+  padding: 1vw;
+  /* Responsive padding using vw */
+  margin-top: 1vw;
+  /* Responsive margin using vw */
+}
+
+.pnf-btn:hover {
+  background-color: black;
+  color: white;
+}
+
+/* Contact Us */
+.contactus {
+  margin: 0;
+  padding: 0;
+  height: 70vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.product-link {
+  text-decoration: none !important;
+  color: black !important;
+}
